@@ -1,22 +1,11 @@
 package com.example.mkf.gpsalarm;
 
 import android.app.Service;
-import android.content.BroadcastReceiver;
-import android.content.Context;
 import android.content.Intent;
 import android.media.Ringtone;
 import android.media.RingtoneManager;
 import android.net.Uri;
-import android.os.Bundle;
 import android.os.IBinder;
-import android.os.PowerManager;
-import android.widget.Toast;
-
-import android.app.AlarmManager;
-import android.app.PendingIntent;
-import java.text.Format;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 /**
  * Created by mkf on 1.12.2015.

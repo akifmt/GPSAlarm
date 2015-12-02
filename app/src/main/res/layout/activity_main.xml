@@ -13,7 +13,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button1"
+        android:text="get location"
         android:id="@+id/btStart"
         android:layout_below="@+id/textView"
         android:layout_alignParentLeft="true"
@@ -21,14 +21,14 @@
         android:layout_marginLeft="49dp"
         android:layout_marginStart="49dp"
         android:layout_marginTop="89dp"
-        android:onClick="startRepeatingTimer" />
+        android:onClick="startLocation" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button2"
+        android:text="stop alarm"
         android:id="@+id/btCancel"
-        android:onClick="cancelRepeatingTimer"
+        android:onClick="cancelAlarm"
         android:layout_below="@+id/btStart"
         android:layout_alignLeft="@+id/btStart"
         android:layout_alignStart="@+id/btStart" />
@@ -36,9 +36,9 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button3"
+        android:text="start alarm"
         android:id="@+id/btOneTime"
-        android:onClick="onetimeTimer"
+        android:onClick="startAlarm"
         tools:context=".WidgetAlarmManagerActivity"
         android:layout_below="@+id/btCancel"
         android:layout_alignLeft="@+id/btCancel"
